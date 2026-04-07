@@ -1,0 +1,112 @@
+name,type,source,status,schedule_or_group,owner,active_owner,recommended_action,confidence,rollback,notes
+action_scheduler_run_queue,wp-cron,woo,scheduled,recurring,woocommerce/action-scheduler,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce/action-scheduler
+adt_pfp_usage_tracking_cron,wp-cron,inactive-leftover,scheduled,recurring,advanced-database-cleaner,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: advanced-database-cleaner
+aiowps_clean_old_events,wp-cron,inactive-leftover,scheduled,recurring,all-in-one-wp-security,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: all-in-one-wp-security
+aiowps_weekly_cron_event,wp-cron,inactive-leftover,scheduled,recurring,all-in-one-wp-security,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: all-in-one-wp-security
+astra_delete_docs_folder,wp-cron,inactive-leftover,scheduled,recurring,astra,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: astra
+breeze_clear_remote_gravatar,wp-cron,inactive-leftover,scheduled,recurring,breeze,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: breeze
+cookie_notice_get_app_analytics,wp-cron,inactive-leftover,scheduled,recurring,cookie-notice,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: cookie-notice
+cookie_notice_get_app_config,wp-cron,inactive-leftover,scheduled,recurring,cookie-notice,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: cookie-notice
+delete_expired_transients,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+dropshipping_import_process,wp-cron,inactive-leftover,scheduled,recurring,unknown-dropshipping,no,BLOCKED,medium,wp_clear_scheduled_hook() or restore from backup,Owner: unknown-dropshipping
+elementor/tracker/send_event,wp-cron,inactive-leftover,scheduled,recurring,elementor,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: elementor
+facebook_for_woocommerce_daily_heartbeat_cron,wp-cron,woo,scheduled,recurring,facebook-for-woocommerce,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: facebook-for-woocommerce
+facebook_for_woocommerce_hourly_heartbeat_cron,wp-cron,woo,scheduled,recurring,facebook-for-woocommerce,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: facebook-for-woocommerce
+generate_category_lookup_table_wrapper,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+gla/jobs/resubmit_expiring_products/start,wp-cron,inactive-leftover,scheduled,recurring,google-listings-and-ads,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: google-listings-and-ads
+gla/jobs/update_merchant_price_benchmarks/process_item,wp-cron,inactive-leftover,scheduled,recurring,google-listings-and-ads,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: google-listings-and-ads
+gla/jobs/update_merchant_price_benchmarks/start,wp-cron,inactive-leftover,scheduled,recurring,google-listings-and-ads,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: google-listings-and-ads
+imagify_sync_files,wp-cron,inactive-leftover,scheduled,recurring,imagify,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: imagify
+jetpack_clean_nonces,wp-cron,inactive-leftover,scheduled,recurring,jetpack,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: jetpack
+jetpack_v2_heartbeat,wp-cron,inactive-leftover,scheduled,recurring,jetpack,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: jetpack
+monsterinsights_usage_tracking_cron,wp-cron,inactive-leftover,scheduled,recurring,monsterinsights,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: monsterinsights
+p24_daily_event,wp-cron,required-keep,scheduled,recurring,imoje,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: imoje
+pum_daily_scheduled_events,wp-cron,inactive-leftover,scheduled,recurring,popup-maker,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: popup-maker
+pum_weekly_scheduled_events,wp-cron,inactive-leftover,scheduled,recurring,popup-maker,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: popup-maker
+rank_math/analytics/data_fetch,wp-cron,required-keep,scheduled,recurring,seo-by-rank-math,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: seo-by-rank-math
+rank_math/content-ai/update_prompts,wp-cron,required-keep,scheduled,recurring,seo-by-rank-math,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: seo-by-rank-math
+rank_math/links/internal_links,wp-cron,required-keep,scheduled,recurring,seo-by-rank-math,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: seo-by-rank-math
+rank_math/redirection/clean_trashed,wp-cron,required-keep,scheduled,recurring,seo-by-rank-math,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: seo-by-rank-math
+recovery_mode_clean_expired_keys,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+rocket_performance_hints_cleanup,wp-cron,inactive-leftover,scheduled,recurring,wp-rocket,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-rocket
+rocket_preload_clean_rows_time_event,wp-cron,inactive-leftover,scheduled,recurring,wp-rocket,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-rocket
+rocket_saas_clean_rows_time_event,wp-cron,inactive-leftover,scheduled,recurring,wp-rocket,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-rocket
+rocket_update_dynamic_lists,wp-cron,inactive-leftover,scheduled,recurring,wp-rocket,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-rocket
+sb_instagram_cron_job,wp-cron,inactive-leftover,scheduled,recurring,smash-balloon-instagram,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: smash-balloon-instagram
+sb_instagram_twicedaily,wp-cron,inactive-leftover,scheduled,recurring,smash-balloon-instagram,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: smash-balloon-instagram
+sbi_feed_update,wp-cron,inactive-leftover,scheduled,recurring,smash-balloon-instagram,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: smash-balloon-instagram
+sbi_usage_tracking_cron,wp-cron,inactive-leftover,scheduled,recurring,smash-balloon-instagram,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: smash-balloon-instagram
+secnin_daily_vulnerability_warning_check,wp-cron,inactive-leftover,scheduled,recurring,security-ninja,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: security-ninja
+secnin_update_vuln_list,wp-cron,inactive-leftover,scheduled,recurring,security-ninja,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: security-ninja
+two_daily_cron_hook,wp-cron,inactive-leftover,scheduled,recurring,unknown-two,no,BLOCKED,medium,wp_clear_scheduled_hook() or restore from backup,Owner: unknown-two
+updraftplus_clean_temporary_files,wp-cron,inactive-leftover,scheduled,recurring,updraftplus,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: updraftplus
+vi_wbe_remove_revision,wp-cron,woo,scheduled,recurring,vi-woocommerce-bulk-editor,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: vi-woocommerce-bulk-editor
+wc_admin_daily,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+wc_admin_daily_wrapper,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+wc_admin_process_orders_milestone,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+wc_admin_unsnooze_admin_notes,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+wdev_logger_clear_logs,wp-cron,inactive-leftover,scheduled,recurring,forminator,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: forminator
+woocommerce_cancel_unpaid_orders,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_cleanup_draft_orders,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_cleanup_logs,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_cleanup_personal_data,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_cleanup_rate_limits_wrapper,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_cleanup_sessions,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_geoip_updater,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_marketplace_cron_fetch_promotions,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_refresh_order_count_cache,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+woocommerce_scheduled_sales,wp-cron,woo,scheduled,recurring,woocommerce,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: woocommerce
+wp_delete_temp_updater_backups,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_mail_smtp_admin_notifications_update,wp-cron,inactive-leftover,scheduled,recurring,wp-mail-smtp,no,BLOCKED,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-mail-smtp
+wp_mail_smtp_summary_report_email,wp-cron,inactive-leftover,scheduled,recurring,wp-mail-smtp,no,BLOCKED,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-mail-smtp
+wp_privacy_delete_old_export_files,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_scheduled_auto_draft_delete,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_scheduled_delete,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_site_health_scheduled_check,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_update_plugins,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_update_themes,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_update_user_counts,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wp_version_check,wp-cron,core,scheduled,recurring,wordpress-core,yes,KEEP,high,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-core
+wpacu_daily_scheduled_events,wp-cron,inactive-leftover,scheduled,recurring,wp-asset-clean-up,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-asset-clean-up
+wpacu_weekly_scheduled_events,wp-cron,inactive-leftover,scheduled,recurring,wp-asset-clean-up,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wp-asset-clean-up
+wpseo-reindex,wp-cron,inactive-leftover,scheduled,recurring,wordpress-seo,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-seo
+wpseo-reindex-links,wp-cron,inactive-leftover,scheduled,recurring,wordpress-seo,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-seo
+wpseo_home_url_check,wp-cron,inactive-leftover,scheduled,recurring,wordpress-seo,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-seo
+wpseo_permalink_structure_check,wp-cron,inactive-leftover,scheduled,recurring,wordpress-seo,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: wordpress-seo
+yith_wcan_delete_expired_transients,wp-cron,woo,scheduled,recurring,yith-woocommerce-ajax-navigation,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: yith-woocommerce-ajax-navigation
+yith_wcwl_delete_expired_wishlists,wp-cron,woo,scheduled,recurring,yith-woocommerce-wishlist,no,PURGE-CANDIDATE,medium,wp_clear_scheduled_hook() or restore from backup,Owner: yith-woocommerce-wishlist
+woocommerce_cancel_unpaid_orders,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 11
+woocommerce_refresh_order_count_cache,action-scheduler,count,complete,count,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 3
+gla/jobs/update_merchant_price_benchmarks/process_item,action-scheduler,gla,failed,gla,google-listings-and-ads,no,PURGE-CANDIDATE,medium,Action Scheduler will re-create on plugin activation,Count: 3
+gla/jobs/update_merchant_price_benchmarks/start,action-scheduler,gla,failed,gla,google-listings-and-ads,no,PURGE-CANDIDATE,medium,Action Scheduler will re-create on plugin activation,Count: 3
+woocommerce_cleanup_sessions,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 3
+gla/jobs/resubmit_expiring_products/start,action-scheduler,gla,failed,gla,google-listings-and-ads,no,PURGE-CANDIDATE,medium,Action Scheduler will re-create on plugin activation,Count: 3
+woocommerce_cleanup_logs,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+woocommerce_scheduled_sales,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+woocommerce_cleanup_draft_orders,action-scheduler,none,complete,none,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+woocommerce_cleanup_rate_limits_wrapper,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+action_scheduler_run_recurring_actions_schedule_hook,action-scheduler,ActionScheduler,complete,ActionScheduler,unknown,no,REVIEW,medium,Action Scheduler will re-create on plugin activation,Count: 2
+wp_mail_smtp_admin_notifications_update,action-scheduler,wp_mail_smtp,failed,wp_mail_smtp,wp-mail-smtp,no,BLOCKED,medium,Action Scheduler will re-create on plugin activation,Count: 2
+woocommerce_cleanup_personal_data,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+wc_admin_daily_wrapper,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+generate_category_lookup_table_wrapper,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 2
+gla/jobs/update_merchant_price_benchmarks/start,action-scheduler,gla,pending,gla,google-listings-and-ads,no,PURGE-CANDIDATE,medium,Action Scheduler will re-create on plugin activation,Count: 1
+gla/jobs/update_merchant_price_benchmarks/process_item,action-scheduler,gla,pending,gla,google-listings-and-ads,no,PURGE-CANDIDATE,medium,Action Scheduler will re-create on plugin activation,Count: 1
+gla/jobs/resubmit_expiring_products/start,action-scheduler,gla,pending,gla,google-listings-and-ads,no,PURGE-CANDIDATE,medium,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_refresh_order_count_cache,action-scheduler,count,pending,count,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_geoip_updater,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+rank_math/analytics/data_fetch,action-scheduler,rank-math,pending,rank-math,seo-by-rank-math,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_cleanup_sessions,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+action_scheduler_run_recurring_actions_schedule_hook,action-scheduler,ActionScheduler,pending,ActionScheduler,unknown,no,REVIEW,medium,Action Scheduler will re-create on plugin activation,Count: 1
+wp_mail_smtp_summary_report_email,action-scheduler,wp_mail_smtp,pending,wp_mail_smtp,wp-mail-smtp,no,BLOCKED,medium,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_cancel_unpaid_orders,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_scheduled_sales,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_cleanup_draft_orders,action-scheduler,none,pending,none,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_cleanup_rate_limits_wrapper,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_cleanup_logs,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+wp_mail_smtp_admin_notifications_update,action-scheduler,wp_mail_smtp,pending,wp_mail_smtp,wp-mail-smtp,no,BLOCKED,medium,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_cleanup_personal_data,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+wc_admin_daily_wrapper,action-scheduler,woocommerce,pending,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+woocommerce_geoip_updater,action-scheduler,woocommerce,complete,woocommerce,woocommerce,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
+wp_mail_smtp_summary_report_email,action-scheduler,wp_mail_smtp,failed,wp_mail_smtp,wp-mail-smtp,no,BLOCKED,medium,Action Scheduler will re-create on plugin activation,Count: 1
+rank_math/analytics/data_fetch,action-scheduler,rank-math,complete,rank-math,seo-by-rank-math,yes,KEEP,high,Action Scheduler will re-create on plugin activation,Count: 1
